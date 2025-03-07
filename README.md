@@ -38,4 +38,8 @@ keep google api keys in .ENV file
     const newObj = Object.assign(obj1, obj2)
 
     LRU Cache means - LEAST recently used cache
-    restricting num of results to 100 or 10 or 5, [100] as it grows old entries wil be removed from top 
+    restricting num of results to 100 or 10 or 5, [100] as it grows old entries wil be removed from top
+
+## N level nested comments - reddit
+    Recurssion - calling the same comp inside comp
+    Comment list insde comment list
