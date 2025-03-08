@@ -43,3 +43,21 @@ keep google api keys in .ENV file
 ## N level nested comments - reddit
     Recurssion - calling the same comp inside comp
     Comment list insde comment list
+
+## Live Chat
+    infinite scroll (as page loads more data comes up) is way better than pagination
+
+    Two way of live data handlinh
+        Web Sockets - bi directional - like a handshake - two way data sharing once a connection is established - no interval - whatsapp, zerodha
+        Api pollng - cric buzz, gmail, youtube - interval (5s, 25s for next api call) - pollig api calls and gettig data
+
+        to prevent the dom explode ytb is deleteing coments from top after a certain period
+
+        document.getElementByTagName("custom-class-name").length
+
+        random name generator javascript
+        js array.splice(10, 1) = length will be 10 and 1 will removed from top
+
+## Performance
+    always clear interval/timeout when u use in useEffect
+    onScroll event make api calls to load data for infinit scroll
