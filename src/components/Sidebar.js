@@ -5,7 +5,7 @@ const Sidebar = () => {
     const isSidebarOpen = useSelector((store) => store.app.isSidebarOpen);
     if(!isSidebarOpen) return null;
     return (
-        <div className="col-span-1 bg-white shadow-md p-5">
+        <div className="col-span-1 bg-white shadow-md p-5 max-w-96">
             <h1 className="font-bold mb-1">Subscriptions</h1>
             <ul className="mb-3">
                 <li><Link to="/">Home</Link></li>

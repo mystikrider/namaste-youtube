@@ -61,3 +61,22 @@ keep google api keys in .ENV file
 ## Performance
     always clear interval/timeout when u use in useEffect
     onScroll event make api calls to load data for infinit scroll
+
+## useMemo – Returns a memoized value. - Caching filtered products or sorting data to avoid recalculations.
+    can be used to cache the result of an expensive/heavy operation between rerenders
+    so that the performance can be improved
+
+    const prime = useMemo(() => memoizedFn(), [depVar])
+
+    for each browser tab chrome alocates diff memory so that chrome will be fast
+
+## useCallback – Returns a memoized function
+    cache the func btwn re redners
+    preventing unnecessary re-renders when passing functions to child components or as event handlers.
+    memoizing a function to prevent unnecessary re-creation on every rende
+    
+## useRef - can be used to persist/hold a value without rerender
+    ccessing DOM elements directly
+
+## React.memo memoisez result of a comp redner
+    comb of react.memo plus usecalback is super perfomance
